@@ -1,0 +1,5 @@
+aiohttp # For making HTTP requests to APIs
+fastapi # For building the API
+python-dotenv # For loading tokens and secrets from .env
+supabase #For databases
+uvicorn # For running the FastAPI server
