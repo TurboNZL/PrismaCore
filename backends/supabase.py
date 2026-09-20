@@ -13,3 +13,12 @@ if prod_mode: SUPABASE_SCHEMA = "public"
 else: SUPABASE_SCHEMA = "dev"
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+
+async def query(table, filters, columns):
+    """supabase query that returns thing - unfinished"""
+    def blocking():
+        return (
+            supabase.table(table)
+            .select(columns)
+
+        )

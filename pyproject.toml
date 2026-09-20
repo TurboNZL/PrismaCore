@@ -1,6 +1,6 @@
 [project]
 name = "prismacore"
-version = "26.8.0"
+version = "26.9.0"
 description = "PrismaBot's core API and systems."
 requires-python = ">=3.13"
 
